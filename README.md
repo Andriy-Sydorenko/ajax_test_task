@@ -1,4 +1,4 @@
-### Ajax Systems, Python developer in test for Application team
+![image](https://github.com/Andriy-Sydorenko/ajax_test_task/assets/94242534/e9046cf2-087c-47a5-9702-a406d8510453)### Ajax Systems, Python developer in test for Application team
 Для выполнения тестового задания Вам нужно установить приложение Ajax Systems на телефон (если у вас нет реального андроид устройства то вы можете использовать эмулятор).
 
 ### Задание
@@ -22,11 +22,13 @@
 
 ### Result
 Pytest in run:
+![image](https://github.com/Andriy-Sydorenko/ajax_test_task/assets/94242534/185f5219-28f9-4d2f-9739-0a71b03ca15e)
 
 Pytest in terminal:
+![image](https://github.com/Andriy-Sydorenko/ajax_test_task/assets/94242534/295e662d-8fbc-4ee5-8a20-94667745e38b)
 
 Log file example:
-
+![image](https://github.com/Andriy-Sydorenko/ajax_test_task/assets/94242534/c6a0d00a-25a6-4493-aeea-182fb3b1595b)
 
 
 ### Possible improvements
@@ -34,4 +36,4 @@ Log file example:
 
     Possible sollution - use `driver.activate_app()` and `driver.terminate_app()`
 - Replace `desired_capabilities` for webdriver with `Options object with options kwarg` as it'll be also deprecated.
-- Maybe separate login test into 2 functions(one with invalid inputs, and ne with valid), but since they have the same algorithm, I decided to write only 1 function.
+- Maybe separate login test into 2 functions(one with invalid inputs, and one with valid), but since they have the same algorithm, I decided to write only 1 function.
