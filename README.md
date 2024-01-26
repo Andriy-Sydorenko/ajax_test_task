@@ -1,4 +1,4 @@
-![image](https://github.com/Andriy-Sydorenko/ajax_test_task/assets/94242534/e9046cf2-087c-47a5-9702-a406d8510453)### Ajax Systems, Python developer in test for Application team
+### Ajax Systems, Python developer in test for Application team
 Для выполнения тестового задания Вам нужно установить приложение Ajax Systems на телефон (если у вас нет реального андроид устройства то вы можете использовать эмулятор).
 
 ### Задание
@@ -32,7 +32,7 @@ Log file example:
 
 
 ### Possible improvements
-- Replace [driver.reset()](tests/login/test_login.py) method in as it'll be deprecated in future updates.
+- Replace [driver.reset()](tests/login/test_login.py#L55) method in as it'll be deprecated in future updates.
 
     Possible sollution - use `driver.activate_app()` and `driver.terminate_app()`
 - Replace `desired_capabilities` for webdriver with `Options object with options kwarg` as it'll be also deprecated.
