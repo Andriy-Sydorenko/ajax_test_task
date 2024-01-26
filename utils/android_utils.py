@@ -1,5 +1,6 @@
 import os
 import subprocess
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -12,7 +13,6 @@ def get_device_udid():
     line = result.stdout.strip().split("\n")[1]
     udid = line.split()[0]
     return udid
-
 
 
 def android_get_desired_capabilities():
